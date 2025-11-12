@@ -103,7 +103,7 @@ const projetos = [// lista de imagesn
             href: "https://github.com/NadolnyJoao/ArcheType-Prot-tipos",
             text: "Acesar no Github"
         },
-        href: "/pedrovitor-curriculo/9game.html",
+        href: "pedrovitor-curriculo/game.html",
         grupo: ""
     },
 ]
@@ -227,4 +227,5 @@ function OpenPopUp(index) {
     }
 }
 // Inicializar carrossel do carregar a pogino 
+
 document.addEventListener("DOMContentLoaded", exibirImagens);// chama a função quando a pagina/documento é carregado
