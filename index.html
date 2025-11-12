@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro Vitor F Santos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/carrossel.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h2>Menu</h2> <button onclick="closeNav()">X</button>
+        </header>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#dados">Dados pessoais</a></li>
+            <li><a href="#formation">Formação</a></li>
+            <li><a href="#indiomas">Idiomas</a></li>
+            <li><a href="/abelinnha/index.html">Abelha Game</a></li>
+        </ul>
+    </nav>
+    <main id="content">
+    <section id="home">
+        <main>
+            <div class="info">
+
+                <h1>Pedro Vitor Ferreira dos Santos</h1>
+                <h3>Desenvolvedor de Jogos e Web</h3>
+                <p>
+                    Sou estudante do ensino médio técnico no Instituto Federal do Paraná, com previsão de conclusão em
+                    dezembro de 2025. Atualmente, atuo como Menor Aprendiz em Administração na Rimatur Transportes, onde
+                    sou
+                    responsável pela entrada de veículos no sistema para conserto. Também tenho experiência como monitor
+                    em
+                    Programação no IFPR. Possuo conhecimentos em linguagens de programação como C++, C#, Javascript e
+                    SQL,
+                    além de habilidades em HTML, CSS, Blender e design. Complemento minha formação com um curso de
+                    desenvolvimento de sites pela Alura.
+                </p>
+                <ul>
+                    <a href="#contato">Entrar em contato</a>
+                    <a href="#dados">Me conheça mais</a>
+                </ul>
+            </div>
+            <div class="cont-img">
+
+                <img src="img/me2.png" alt="Foto">
+            </div>
+
+        </main>
+    </section>
+    <section id="dados">
+        <main>
+
+            <h1 class="division">Meus dados pessoais</h1>
+            <ul class="card">
+                <li><b>email</b><br><a href="mailto:pedrovitorfsantos22@gmail.com">pedrovitorfsantos22@gmail.com</a>
+                </li>
+                <li><b>telefone</b><br><a href="tel:+55(41)995973828">(41) 99597-3828</a></li>
+                <li><b>linkedin</b><br><a href="#">in/PedroVitor</a></li>
+                <li><b>Github</b><br><a href="https://github.com/PedroVitor-oss">github/PedroVitor-oss</a></li>
+
+            </ul>
+
+        </main>
+    </section>
+    <section id="formation">
+        <main>
+
+            <h1 class="division">Formação</h1>
+            <ul>
+                <li>
+                    <h2>Desenvolvimento de Jogos Digitais ( 2022 - 2025 )</h2>
+                    <h3>Instituto Federal do Parana</h3>
+                </li>
+                <li>
+                    <h2>Desenvolvimento de web ( 2021 )</h2>
+                    <h3>Alura</h3>
+                </li>
+                <li>
+                    <h2>Ensino fundamental II - completo</h2>
+                    <h3>Teotonio Vilela</h3>
+                </li>
+            </ul>
+        </main>
+    </section>
+    <section id="conhecimentos">
+        <main>
+
+            <h1 class="division">Conhecimentos</h1>
+            <div class="skills-container">
+
+                <div class="skills-circle " id="skills-display">
+                    <img id="skill-icon" class="skill-info" src="" alt="">
+                    <h2 id="skill-title" class="skill-info">Selecione uma habilidade</h2>
+                    <p id="skill-level" class="skill-info"></p>
+                    <p id="skill-description" class="skill-info"></p>
+                </div>
+
+                <div class="skills-buttons">
+                    <!-- Cada botão representa uma habilidade -->
+                    <button class="btn programming" onclick="showSkill('cpp')">C++</button>
+                    <button class="btn programming" onclick="showSkill('csharp')">C#</button>
+                    <button class="btn programming" onclick="showSkill('js')">JavaScript</button>
+                    <button class="btn programming" onclick="showSkill('sql')">SQL</button>
+                    <button class="btn markup" onclick="showSkill('html')">HTML</button>
+                    <button class="btn style" onclick="showSkill('css')">CSS</button>
+                    <button class="btn modeling" onclick="showSkill('blender')">Blender</button>
+                    <button class="btn illustration" onclick="showSkill('inkscape')">Inkscape</button>
+                    <button class="btn audio" onclick="showSkill('audacity')">Audacity</button>
+                    <button class="btn audio" onclick="showSkill('fmod')">FMOD</button>
+                </div>
+
+            </div>
+        </main>
+    </section>
+    <section id="carreira">
+        <main>
+            <h1 class="division">Carreira</h1>
+            <ul>
+                <li>
+                    <h2>Menor Aprendiz em Administração e Formataçaõ</h2>
+                    <p>No ano de <b>2024</b> atuei na empresa Rimatur Transportes, na parte adiministrativa. Usei habilidades
+                        de exel e word para reescrever arquivos, usadno informações mais descretivas.</p>
+                </li>
+                <li>
+                    <h2>Monitoria de matéria técnica de Programação</h2>
+                    <p>No ano de <b>2023</b>, atuei como monitor/assitente durante as aulas de programação no Instituto Federal
+                        do Paraná. Ajudei os alunos, explicando e auxiliadno nas atividades, que o professor passava
+                        durantes as aulas. </p>
+                </li>
+                <li>
+                    <h2>Free lancer - Site para meio ambiente</h2>
+                    <p>No ano de <b>2023</b>, para uma empresa de meio ambiente desenvolvi um sistema que, recebia arquivos
+                        pdf, separava as informações e juntavas elas, retornando tabelas. O sistema foi usado para
+                        poupar tempo das pessoas que trabalham na empresa, economizando uma media de tempo de 1h.</p>
+                </li>
+            </ul>
+        </main>
+    </section>
+    <section id="indiomas">
+        <main>
+
+            <h1 class="division">Idiomas</h1>
+            <ul class="card">
+                <li><b>Portugues</b><br>
+                    <p>Fluente</p>
+                </li>
+                <li><b>Ingles</b><br>
+                    <p>Basico</p>
+                </li>
+
+
+            </ul>
+
+        </main>
+    </section>
+</main>
+    <div class="carrossel-container">
+        <h2 class="division">Projetos em Imagens</h2> <!--titulo-->
+        <div class="carrossel">
+            <button class="carrossel-btn" onclick="mudarImagens(-1)">&#10094;</button> <!--botão para voltar as imagens-->
+            <div class="carrossel-imagens" id="carrossel-imagens">
+                <!--lugar onde as imagens vão ficar -->
+            </div>
+            <button class="carrossel-btn" onclick="mudarImagens (1)">&#10095;</button><!--botão para avançar as imagens-->
+        </div>
+    </div>
+    <section id="contato">
+        <main>
+            <h1 class="division">Contato</h1>
+            <h3>Entre em contado</h3>
+            <div class="cont-input">
+
+                <input type="text" name="mensagem" value="" />
+                <button>enviar</button>
+            </div>
+
+        </main>
+    </section>
+    <footer>
+        <div class="botoes">
+            <button onclick="mudarFonte ('Roboto')">Roboto</button>
+            <button onclick="mudarFonte ('Lobster')">Lobster</button>
+            <button onclick="mudarFonte ('Mulish')">Mulish</button>
+        </div>
+        <p> 2025 Pedro Vitor - Todos os direitos reservados </p>
+    </footer>
+
+    <button id="openNav" onclick="openNav()">く</button>
+</body>
+<script src="js/navbar.js"></script>
+<script src="js/skillcontrole.js"></script>
+<script src="js/carrosel.js"></script>
+
+</html>

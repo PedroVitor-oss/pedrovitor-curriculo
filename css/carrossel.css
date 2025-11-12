@@ -1,0 +1,48 @@
+.carrossel-container {
+    text-align: center; /*posiciona o texto no centro*/
+    margin: 30px auto; /*aplica margin vertical de 20px e margin horizontal altomatico*/
+    max-width: 1030px;/*delimita o tanho que ele pode ter para 960x*/
+}
+
+.carrossel {
+    display: flex; /* flexibiliza a organização dos elemento, deixando ele na horizontal e não na verticaç*/
+    align-items: center; /* faz com que os elementos tentem ficar no centro vertical*/
+    justify-content: center;/*faz como que os elementos tentem ficar no centro horizonta*/
+    gap: 10px;/*define o espaço entre linhas e colunas ( os elemento )*/
+}
+
+.carrossel-imagens {
+    display: flex;/* flexibiliza a organização dos elemento, deixando ele na horizontal e não na verticaç*/
+    gap: 15px;/*define o espaço entre linhas e colunas ( os elemento )*/
+    overflow: hidden; /* faz com que os elementos não sejam visto fora do tamanha dos elementos*/
+}
+
+.carrossel-imagens img {
+    width: 300px;/* define a largura da imagem*/
+    height: auto;/*faz a altura ser altomatica*/
+    border-radius: 10px;/*deixa as bordas aredondadas*/
+    box-shadow: 0 0  10px rgba(0, 0, 0, 0.3); /* criar um sombreamento na imagem*/
+    flex-shrink: 0;
+}
+
+.carrossel-btn {
+
+    background-color: transparent;/* deixa a cor de fudo  tranparent*/
+    border: none;/* deixa sem borda*/
+    font-size: 30px; /* define o tamanho da fonter para 30px*/
+    cursor: pointer;/* quando o mause passar por cima mudar pra a maozinha*/
+    color: #c7c7c7;/*troca a cor do texto ( simbolo )*/
+    padding: 10px;/*aplica padding( espaçamento interno )  em todas as bordas */
+    transition: 0.35;/* suavização das alterações que ocorrem no css*/
+}
+
+.carrossel-btn:hover {/*  quando o mause passa por cima*/
+    color: #eee;/* muda a cor para branco*/
+    transform: scale(1.2); /* e almenta o tamanho em 20%*/
+}
+
+@media screen and (max-width:768px) {
+    .carrossel-imagens{
+        flex-direction: column;
+    }
+}

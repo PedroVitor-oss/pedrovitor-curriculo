@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #3b3b3b;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+canvas
+{
+    background-color: #aaaaff;
+}

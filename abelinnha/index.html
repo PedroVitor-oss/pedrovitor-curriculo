@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abelha</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/skills.css">
+    <link rel="stylesheet" href="../css/carrossel.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>
+            <h2>Menu</h2> <button onclick="closeNav()">X</button>
+        </header>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#dados">Dados pessoais</a></li>
+            <li><a href="#formation">Formação</a></li>
+            <li><a href="#indiomas">Idiomas</a></li>
+        </ul>
+    </nav>
+    <main id="content">
+
+        <header>
+            <h1>Abelha</h1>
+        </header>
+        <section>
+            <canvas id="canvas" width="900" height="720"></canvas>
+        </section>
+    </main>
+    <button id="openNav" onclick="openNav()">く</button>
+
+    <script src="js/classes.js"></script>
+    <script src="js/game.js"></script>
+    <script src="../js/navbar.js"></script>
+
+</body>
+
+</html>
