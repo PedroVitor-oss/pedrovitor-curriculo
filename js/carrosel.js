@@ -103,7 +103,7 @@ const projetos = [// lista de imagesn
             href: "https://github.com/NadolnyJoao/ArcheType-Prot-tipos",
             text: "Acesar no Github"
         },
-        href: "pedrovitor-curriculo/game.html",
+        href: "/game.html",
         grupo: ""
     },
 ]
