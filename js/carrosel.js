@@ -107,7 +107,7 @@ const projetos = [// lista de imagesn
         grupo: ""
     },
 ]
-
+console.log("quero commit");
 let indiceAtual = 0; // apartir desse indece mostre as imagens afrente dele
 const imagensPorTela = 3;// quantidade de imagens que aparece na tela
 function exibirImagens() {// mudar o conteudo/imagens do carrosel
